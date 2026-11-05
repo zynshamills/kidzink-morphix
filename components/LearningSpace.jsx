@@ -209,9 +209,11 @@ export default function LearningSpace() {
           <Image className="brand-logo landing-logo" src={brandLogo} alt="Kidz Morphix" loading="eager" unoptimized />
           <h1>We create learning spaces.</h1>
           <p className="lede">
-            Step inside an open learning commons: no closed classrooms, just connected zones flowing
-            from the garden glazing to a reading pit, library pods, an early-years studio, a movement
-            room and a dining commons.
+            Welcome to an interactive 3D experience where you can explore our spaces, discover our
+            in-house furniture collection, and experiment with a range of finishes and material
+            combinations. Navigate through the environment, visualize different design possibilities,
+            and see how each finish transforms the space. Explore, customize, and experience your
+            design before it comes to life.
           </p>
           <div className="landing-action">
             {phase === 'loading' ? (
