@@ -7,7 +7,7 @@ import brandLogo from '@/public/kidz-morphix-logo.svg';
 const HINTS = [
   { type: 'look', text: 'Click and drag to look around', icon: 'drag' },
   { type: 'move', text: 'Click on the floor to move around', icon: 'floor' },
-  { type: 'material', text: 'Click furniture to focus on it and explore its finishes', icon: 'material' },
+  { type: 'material', text: 'Click highlighted furniture to focus on it and explore its finishes', icon: 'material' },
 ];
 
 function Icon({ name }) {
